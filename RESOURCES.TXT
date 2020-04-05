@@ -1,2 +1,5 @@
 the delhi climate data set.
 https://www.kaggle.com/mahirkukreja/delhi-weather-data/version/2#
+
+delhi air quality data set.
+https://data.gov.in/search/site?query=temperature+delhi+&field_search=&item=10
