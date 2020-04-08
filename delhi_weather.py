@@ -10,7 +10,9 @@ df1=df1.drop(df1.columns[[1,2,3,4,5,6,7,8,9,10,12,13,14,15,16,17,18,19]],1)
 df1= pre.data_change(df1)
 df1=pre.data_change3(df1)
 df1=pre.data_change2(df1)
-
+df1=df1.to_frame()
+df1=df1.reset_index()
+df1.rename(columns= {' _tempm' :'temp'})
 
 #transferring data to excel
 df1.to_excel("delhi weather since 1997.xlsx")
