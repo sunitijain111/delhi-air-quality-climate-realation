@@ -28,7 +28,7 @@ regressor.fit(X_train, y_train)
 y_pred = regressor.predict(X_test)
 print(y_pred)
 
-#visualizing results of one feature and label
+#visualizing results of one feature(NO2) and label
 Z=df3.iloc[:,1:2].values #used for visualizing 
 reg= DecisionTreeRegressor()
 reg.fit(Z,y)
