@@ -8,5 +8,8 @@ other resources to consider.
 https://www.kaggle.com/shrutibhargava94/india-air-quality-data
 
 result:
-MULTIPLE LINEAR REGRESSION
+1) MULTIPLE LINEAR REGRESSION
 the low r- square can be explained by the fact that, the original data has>=50 % null values.
+
+2) Simple linear regression
+gives poor root mean squared value indicating that this algo cant fit on the dataset accurately .
