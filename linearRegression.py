@@ -44,3 +44,7 @@ plt.scatter(X_test, y_test,  color='gray')
 plt.plot(X_test, y_pred, color='red', linewidth=2)
 plt.show()
 
+#evaluating error
+print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))  
+print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))  
+print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
