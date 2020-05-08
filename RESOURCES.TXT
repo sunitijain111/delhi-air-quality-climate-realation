@@ -14,7 +14,10 @@ the low r- square can be explained by the fact that, the original data has>=50 %
 2) Simple linear regression
 gives poor root mean squared value indicating that this algo cant fit on the dataset accurately .
 
-3) for plotting decision tree:
+3) Decision tree 
+give bad accuracy since, the data had >50% NULL values.
+
+4) for plotting decision tree as image:
   sudo apt-get install graphviz
   pip install graphviz
   pip install pydotplus
